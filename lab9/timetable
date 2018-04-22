@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<title>Lab 9 - Timetable</title>
+</head>
+<body style="font-family:Raleway;">
+	<table class="w3-table-all w3-border w3-centered">
+		<h1>Timetable, 4th term</h1>
+		<tr>
+			<th></th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+			<th>Saturday</th>
+		</tr>
+		<tr>
+			<td>8:15-9:35</td>
+			<td>PE</td>
+			<td rowspan="5">Voenka/Training Practice</td>
+			<td>Functional Analysis<br/>521</td>
+			<td>PE</td>
+			<td></td>
+			<td>Differential Equations<br/>521</td>
+		</tr>
+		<tr>
+			<td>9:45-11:05</td>
+			<td>Theory of Algorithms<br/>607</td>
+			<td>Operation Systems<br/>508</td>
+			<td>Probabilities Theory<br/>605</td>
+			<td>Operation Systems<br/>605</td>
+			<td>Differential Equations<br/>248</td>
+		</tr>
+		<tr>
+			<td>11:15-12:35</td>
+			<td>Numeric Analysis Methods<br/>519</td>
+			<td>Probabilities Theory<br/>257</td>
+			<td>Theory of Algorithms<br/>607</td>
+			<td>Numeric Analysis Methods<br/>605</td>
+			<td>Politology<br/>256</td>
+		</tr>
+		<tr>
+			<td>13:00-14:20</td>
+			<td>Theory of Algorithms<br/>506</td>
+			<td>Probabilities Theory<br/>605</td>
+			<td></td>
+			<td>Functional Analysis<br/>250</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>14:30-15:50</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Theory of Algorithms<br/>508</td>
+			<td></td>
+		</tr>
+	</table>
+	<form method="get" action="task9.html">
+    		<button class="w3-button w3-black w3-padding w3-margin-bottom" type="submit">Go to CV</button>
+	</form>
+	
+</body>
+</html>
