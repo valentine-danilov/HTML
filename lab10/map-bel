@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Lab10</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="JavaScript/add_row.js"></script>
+  <style>
+	.navbar {
+      		margin-bottom: 0;
+      		border-radius: 0;
+   	}
+	
+	ul, p{font-size:20px}
+  </style>	
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div id="myNavbar">
+      		<ul class="nav nav nav-pills">
+        		<li><a href="Lab10-1" class="button">Task A-B</a></li>
+  			<li class="active"><a href="map-bel" class="button">Task C</a></li>
+      		</ul>
+    		</div> 
+	</div>  
+</nav>
+
+<div class="container-fluid">
+	<div class="row-content">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-8">
+			<img src="images/bel.jpg" style="width:85%" usemap="#bel"> 
+		</div> 
+	</div>
+	<map name="bel">
+		<area shape="poly" coords="51, 824, 53, 721, 8, 687, 98, 608, 160, 605, 181, 570, 233, 591, 286, 504, 353, 506, 343, 538, 363, 560, 358, 603, 444, 680, 523, 658, 446, 682, 475, 707, 469, 819, 301, 762, 139, 762" alt="briest" target="_blank" href="https://ru.wikipedia.org/wiki/Брестская_область">
+		<area shape="poly" target="_blank" coords="355, 506, 358, 233, 661, 296, 665, 437, 561, 535, 555, 664, 437, 671" alt="minsk" href="https://ru.wikipedia.org/wiki/Минская_область">
+		<area shape="poly" target="_blank" coords="95, 600, 70, 393, 274, 339, 337, 220, 356, 351, 370, 502, 292, 504, 234, 590, 181, 571" alt="grodno" href="https://ru.wikipedia.org/wiki/Гродненская_область">
+		<area shape="poly" target="_blank" coords="347, 215, 530, 20, 810, 103, 835, 298, 665, 341, 666, 288, 508, 284" alt="vitiebsk" href="https://ru.wikipedia.org/wiki/Витебская_область">
+		<area shape="poly" target="_blank" coords="569, 624, 579, 479, 671, 429, 674, 342, 842, 311, 1005, 482, 955, 545, 780, 542, 720, 515, 693, 575" alt="mohiliov" href="https://ru.wikipedia.org/wiki/Могилёвская_область">
+		<area shape="poly" target="_blank" coords="454, 673, 562, 640, 697, 576, 707, 516, 827, 522, 919, 720, 828, 753, 801, 864, 473, 817" alt="homel" href="https://ru.wikipedia.org/wiki/Гомельская_область">
+	</map>
+</div>
+</html>
