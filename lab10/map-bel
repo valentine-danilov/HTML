@@ -12,15 +12,19 @@
       		margin-bottom: 0;
       		border-radius: 0;
    	}
-	
-	ul, p{font-size:20px}
+	footer {
+      		background-color: #555;
+      		color: white;
+      		padding: 15px;
+    	}
+
   </style>	
 </head>
 <body>
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
 		<div id="myNavbar">
-      		<ul class="nav nav nav-pills">
+      		<ul class="nav nav-pills">
         		<li><a href="Lab10-1" class="button">Task A-B</a></li>
   			<li class="active"><a href="map-bel" class="button">Task C</a></li>
       		</ul>
@@ -44,4 +48,8 @@
 		<area shape="poly" target="_blank" coords="454, 673, 562, 640, 697, 576, 707, 516, 827, 522, 919, 720, 828, 753, 801, 864, 473, 817" alt="homel" href="https://ru.wikipedia.org/wiki/Гомельская_область">
 	</map>
 </div>
+<footer class="container-fluent text-left">
+  <p>Powered by Valentine</p>
+</footer>
+</body>
 </html>
