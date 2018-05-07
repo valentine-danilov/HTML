@@ -1,8 +1,10 @@
-
+var ava; 
 function addRow()
 {
 	var d = document;
 	var ava = d.getElementById('avatar').value;
+alert(ava);
+	
 	var fname = d.getElementById('fname').value;
 	var lname = d.getElementById('lname').value;
 	var group = d.getElementById('group').value;
@@ -35,6 +37,9 @@ function addRow()
 	td5.innerHTML = isOnVoenka;
 	if(isOnVoenka==true) td5.innerHTML = 'Yes';
 	if(isOnVoenka==false) td5.innerHTML = 'No';
-	td6.innerHTML = ava;
+	//td6.innerHTML = ava;
+	td6.innerHTML = '<img src="'+ava.slice(0,11)+'" style="width:10%">';
+	
 	
 }
+

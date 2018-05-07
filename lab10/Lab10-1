@@ -17,7 +17,7 @@
 			left: 0;
 			bottom: 0;
 			width: 100%;
-			height: 60px;
+			
 	      		background-color: #555;
 	      		color: white;
 	      		padding: 15px;
@@ -89,7 +89,7 @@
 			</div>
 			<div class="form-group">
     				<label for="avatar">Choose avatar:</label>
-    				<input type="file" class="form-control-file btn btn-default" id="avatar">
+    				<input type="file"  id="avatar">
   			</div>
 			<div class = "form-group">
 				<div class="checkbox">
@@ -97,9 +97,8 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<button type="button" onclick="addRow()">Add student</button>
+				<img src="images/ok.png" class="btn btn-default" onclick="addRow()" style="width:10%">
 			</div>
-		</div>
 	</div>
 	
 	<div class="col-sm-4">

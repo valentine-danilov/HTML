@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 <div class="w3-content w3-center w3-paddings w3-margin-top">
-	<audio src="мос-эйсли.mp3" autoplay>
+	<audio src="audio/мос-эйсли.mp3" autoplay>
         	<code>audio</code>
     	</audio>
 	<img src="jpg/мос-эйсли.jpg" style="width:100%">
