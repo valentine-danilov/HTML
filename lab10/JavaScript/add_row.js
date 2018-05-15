@@ -38,7 +38,7 @@ alert(ava);
 	if(isOnVoenka==true) td5.innerHTML = 'Yes';
 	if(isOnVoenka==false) td5.innerHTML = 'No';
 	//td6.innerHTML = ava;
-	td6.innerHTML = '<img src="'+ava.slice(0,11)+'" style="width:10%">';
+	td6.innerHTML = '<img src="'+ava+'" style="width:10%">';
 	
 	
 }
